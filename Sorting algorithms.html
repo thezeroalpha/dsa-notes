@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head><link rel="stylesheet" href="/sitewide.css" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="exporter-version" content="Evernote Mac 7.5.2 (457164)" />
+  <meta name="altitude" content="-2.251447916030884" />
+  <meta name="author" content="Alex Balgavy" />
+  <meta name="created" content="2018-09-09 14:36:35 +0000" />
+  <meta name="latitude" content="52.37206912281741" />
+  <meta name="longitude" content="4.836335368469856" />
+  <meta name="source" content="desktop.mac" />
+  <meta name="updated" content="2018-09-20 11:44:16 +0000" />
+  <title>Sorting algorithms</title>
+</head>
+
+<body>
+  <div>Specification:</div>
+  <ul>
+    <li>
+      <div>input: finite sequence, usually array starting at index 1</div>
+    </li>
+    <li>
+      <div>output: ordered permutation (ascending)</div>
+    </li>
+  </ul>
+  <div><br /></div>
+  <div>Properties:</div>
+  <ul>
+    <li>
+      <div>comparison-based: based on comparisons of elements</div>
+    </li>
+    <ul>
+      <li>
+        <div>for these, lowest worst case is Ω(nlogn)</div>
+      </li>
+      <li>
+        <div>this can be proved using decision trees</div>
+      </li>
+      <li>
+        <div>can do better using linear algorithms for specific inputs</div>
+      </li>
+    </ul>
+    <li>
+      <div>in-place: use space for input plus a constant amount of extra space</div>
+    </li>
+    <li>
+      <div>stable: keep order of equal elements (could lead to space issues if it doesn’t happen)</div>
+    </li>
+    <li>
+      <div>efficient: what’s the best we can do?</div>
+    </li>
+  </ul>
+  <div><br /></div>
+  <div>Theta notation &amp; Big O (like ‘classes of functions’)</div>
+  <ul>
+    <li>
+      <div>rate of growth of function when input grows to infinity</div>
+    </li>
+    <li>
+      <div>saying that a function is in a class means that it ‘grows the same way'</div>
+    </li>
+    <li>
+      <div>first approximation: drop lower-order terms and leading constants</div>
+    </li>
+    <li>
+      <div>types:</div>
+    </li>
+    <ul>
+      <li>
+        <div>ϴ is asymptotic tight bound (“=“)</div>
+      </li>
+      <li>
+        <div>O is asymptotic upper bound (“≤”)</div>
+      </li>
+      <li>
+        <div>Ω is asymptotic lower bound (“≥”)</div>
+      </li>
+    </ul>
+    <li>
+      <div>properties of Big O</div>
+    </li>
+    <ul>
+      <li>
+        <div>
+          <img src="Sorting%20algorithms.resources/70A49E8A-AE11-4987-877F-1A47F95044B5.png" height="18" width="137" /></div>
+      </li>
+      <li>
+        <div>
+          <img src="Sorting%20algorithms.resources/88D21772-1A5A-4E75-9AAE-59E26331E2EB.png" height="18" width="158" /></div>
+      </li>
+      <li>
+        <div>
+          <img src="Sorting%20algorithms.resources/516DF481-B6D8-4F0D-A497-E12693B1B2DF.png" height="16" width="153" /></div>
+      </li>
+      <li>
+        <div>
+          <img src="Sorting%20algorithms.resources/A352B0D6-C639-49B7-B474-6C2B83D80EFF.png" height="16" width="169" /></div>
+      </li>
+    </ul>
+    <li>
+      <div>important summations</div>
+    </li>
+    <ul>
+      <li>
+        <div><span style="font-size: 17px;" /><span style="font-size: 17px;"><img src="Sorting%20algorithms.resources/70762DAB-E4AC-4138-A86C-C58EB8E8469B.png" height="49" width="131" /></span></div>
+      </li>
+      <li>
+        <div><span style="font-size: 17px;" /><span style="font-size: 17px;"><img src="Sorting%20algorithms.resources/6A0AEB8F-55C7-488F-9202-8F21003463CE.png" height="48" width="120" /></span></div>
+      </li>
+    </ul>
+  </ul>
+  <div><br /></div>
+  <div><span style="font-size: 14px;">Algorithms:</span></div>
+  <ul>
+    <li>
+      <div><span style="font-size: 14px;"><a href="Insertion sort.html" style="font-size: 14px;">Insertion sort</a></span></div>
+    </li>
+    <li>
+      <div><a href="Merge sort.html">Merge sort</a></div>
+    </li>
+    <li>
+      <div><a href="Heapsort.html"">Heapsort</a></div>
+    </li>
+    <li>
+      <div><a href="Quicksort.html"">Quicksort</a></div>
+    </li>
+    <li>
+      <div><a href="Linear-time algorithms.html">Linear-time algorithms</a></div>
+    </li>
+  </ul>
+  <div><br /></div>
+</body>
+
+</html>
